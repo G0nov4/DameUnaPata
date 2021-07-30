@@ -1,0 +1,32 @@
+{
+  "name": "dameunapata",
+  "version": "1.0.0",
+  "description": "Pagina web sobre rescate de mascotas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G0nov4/DameUnaPata.git"
+  },
+  "keywords": [
+    "Pets",
+    "Rescue"
+  ],
+  "author": "Gary Nova - Neil Graneros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/G0nov4/DameUnaPata/issues"
+  },
+  "homepage": "https://github.com/G0nov4/DameUnaPata#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mysql": "^2.18.1",
+    "pug": "^3.0.2",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0"
+  }
+}
