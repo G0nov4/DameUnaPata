@@ -1,0 +1,181 @@
+
+<header>
+   <section id="slider">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="block">
+              <h1 class="animated fadeInUp">Perdiste a tu  <br> Mejor Amigo?</h1>
+              <p class="animated fadeInUp">Mas que un animal, es FAMILIA </br> Registrate y podras publicar sobre tu </br>mascota pérdida o reportar sobre una mascota.</p>
+            </div>
+          </div>
+        </div>
+        <button class="button" onclick="window.location.href='/list/lost'" > Mascotas   Perdidas  </button>
+        <button class="button" onclick="window.location.href='/list/report'" > Mascotas Reportadas</button>
+        <button class="button" onclick="window.location.href='/list/found'" > Mascotas Encontradas</button>
+      </div>
+
+    </section>
+
+
+
+
+
+   <section id="info">
+      <div class="container">
+    <div class="list_report">
+        <div class="lista">
+
+            <div class="card">
+             
+                <div class="card-img">
+                    <img src="img/sentado.jpg" alt="">
+                </div>
+               <h1 class="card-title">
+                    Registra a tu Mascota perdida
+                </h1>
+                <p class="description"> Publica aquí tu mascota perdida o busca entre las que se han reportado como perdidas.<br></p>
+                
+                <div class="card-button">
+                    <button onclick="window.location.href='/profile'"> Me perdí</button>
+                </div>
+            </div>
+
+            <div class="card">
+             
+                <div class="card-img">
+                    <img src="img/michis.jpg" alt="">
+                </div>
+               <h1 class="card-title">
+                  <br>
+                    Reportar Mascota perdida <br>
+                </h1>
+                <p class="description"> Reporta aquí si encontraste alguna mascota perdida, para así poder encontrar a sus dueños.<br></p>
+                
+                <div class="card-button">
+                    <button onclick="window.location.href='/profile'"> Reportar</button>
+                </div>
+            </div>
+
+             <div class="card">
+             
+                <div class="card-img">
+                    <img src="img/registrar.jpg" alt="">
+                </div>
+               <h1 class="card-title">
+                 <br>
+                  Registrate<br>
+                </h1>
+                <p class="description"> Regístrate para poder publicar el extravío de tu mascota o reportar alguna mascota. <br></p>
+                
+                <div class="card-button">
+                    <button onclick="window.location.href='/signin'"> Resgistrarse</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+    </section>
+
+
+
+   
+
+    <!-- Wrapper Start -->
+    <section id="intro">
+      <div class="container">
+         <div class="block">
+            <img class = "img1"src="img/dup.png" alt="Img">
+          </div>
+        <div class="row">
+         
+          <div class="col-md-7 col-sm-12">
+            <div class="block">
+              <div class="section-title">
+                <h2>MISION</h2>
+                <p>Dame una Pata desea ayudar a todos los dueños y mascotas a que se reencuentren, ya que una mascota es un miembro más de la familia. Brindando un servicio de anuncio de mascotas perdidas y reportdas. </p>
+              </div>
+              
+            </div>
+            <div class="block">
+              <div class="section-title">
+                <h2>VISION</h2>
+                <p>Ser una plataforma al servicio de la comunidad, proporcionando el medio para poder difundir la informacón sobre una mascota perdida, logrando ser un medio de difusión que contribuya a una sociedad en armonía con sus animales.</p>
+              </div>
+              
+            </div>
+      </div>
+    </section>
+
+
+
+
+  
+
+
+
+ <!-- Call to action Start -->
+    <section id="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="block">
+              <h2>Cuentanos tus experiencias.</h2>
+              
+              <a class="btn btn-default btn-call-to-action" href="/contact" >Contáctanos!!!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+  <!-- footer Start -->
+
+
+    <footer>
+      
+      <div class="container">
+        <div class="row">
+            <img src="img/dup3.png" alt="">
+         
+            <div class="footer-manu">
+              <!--ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Terms</a></li>
+              </ul-->
+              <br>
+              <p>       Copyright &copy; Crafted by >NEIL GRANEROS.</p>
+            </div>
+          
+
+          
+
+        </div>
+      </div>
+    </footer>
+
+    <button id="topBtn"><i class="fas fa-arrow-up"></i></button>
+
+</header>
+<script>$(document).ready(function(){
+
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 40){
+      $('#topBtn').fadeIn();
+    } else{
+      $('#topBtn').fadeOut();
+    }
+  });
+
+  $("#topBtn").click(function(){
+    $('html ,body').animate({scrollTop : 0},800);
+  });
+});
+</script>

@@ -1,0 +1,58 @@
+<nav>
+  <input type="checkbox" id="check" />
+  <label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+  </label>
+
+  <label class="logo" onclick="window.location.href='/'"> </label>
+
+  {{#if administrator}}
+    <ul>
+      <li>
+        <a class="" href="/profile">Usuarios</a>
+      </li>
+     
+      <li>
+        <a class="" href="/listpets">Mascotas</a>
+      </li>
+ 
+      <li>
+        <a class="logout" href="/logout">Logout</a>
+      </li>
+    </ul>
+
+  {{else if user}}
+
+    <ul>
+      <li>
+        <a class="" href="/profile">Perfil</a>
+      </li>
+
+      <li>
+        <a class="" href="/contact">Contacto</a>
+      </li>
+      <li>
+        <a class="logout" href="/logout">Logout</a>
+      </li>
+    </ul>
+
+  {{else}}
+    <ul>
+      <li>
+        <a class="" href="/">Inicio</a>
+      </li>
+
+      <li>
+        <a class="" href="/contact">Contacto</a>
+      </li>
+      <li>
+        <a class="signin" href="/signin">Signin</a>
+      </li>
+      <li>
+        <a class="signup" href="/signup">Signup</a>
+      </li>
+    </ul>
+
+  {{/if}}
+
+</nav>
