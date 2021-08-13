@@ -2,6 +2,6 @@ const User = require('../models').User;
 
 module.exports = {
     index: (req,res)=>{
-        res.send('Este es el signup');
+        res.render('./user/signup.hbs');
     }
 }
