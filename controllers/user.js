@@ -87,3 +87,16 @@ module.exports = {
 
 
 }
+/*
+
+Username: DElxzAqhYk
+
+Database name: DElxzAqhYk
+
+Password: xuVtE0cZby
+
+Server: remotemysql.com
+
+Port: 3306
+
+*/
