@@ -11,6 +11,10 @@ router.route('/signup')
 .get(UserController.index)
 .post(UserController.create);
 
+router.route('/signin')
+.get(UserController.signin)
+.post(UserController.login);
+
 
 
 
