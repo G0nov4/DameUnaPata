@@ -6,6 +6,7 @@ module.exports = {
         res.render('./user/signup.hbs');
     },
     create: (req,res)=>{
+        
         const name = req.body.name;
         const lastname = req.body.lastname;
         const phone = req.body.phone;
